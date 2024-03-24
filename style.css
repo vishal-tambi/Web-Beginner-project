@@ -27,7 +27,7 @@
 }
 
 .logo {
-    background-image: url("logo.png");
+    background-image: url("Images/logo.png");
     background-size: cover;
     background-image: cover;
     height: 60px;
@@ -136,7 +136,7 @@
 
 /* now i am going to make hero section */
 .hero-section{
-    background-image: url("v.jpg");
+    background-image: url("Images/v.jpg");
     height: 500px;
     background-size: cover;   
 }
@@ -188,7 +188,7 @@
 }
 
 .hero1-section{
-    background-image: url("vl.jpg");
+    background-image: url("Images/vl.jpg");
     height: 500px;
     background-size: cover;   
 }
