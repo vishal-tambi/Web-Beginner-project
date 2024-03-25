@@ -242,3 +242,65 @@ footer {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+
+/*now i am Adding media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Styles for devices with maximum width of 768px (tablets) */
+    .navlogo {
+        width: 80px; 
+    }
+
+    .nav-search {
+        width: auto; 
+    }
+
+    .search-input {
+        width: 200px;
+    }
+
+    .panel-ops {
+        display: none; 
+    }
+
+    .shop-section .box {
+        width: 48%; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navlogo {
+        width: 60px;
+    }
+
+    .search-input {
+        width: 150px;
+    }
+
+    .shop-section .box {
+        width: 100%;
+    }
+}
+
+/* Adding media queries for sport section */
+@media only screen and (max-width: 768px) {
+    
+    .sport-img {
+        height: 300px; 
+    }
+
+    .sport-shop-section .box {
+        width: 48%; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   
+    .sport-img {
+        height: 200px; 
+    }
+
+    .sport-shop-section .box {
+        width: 100%; 
+    }
+}
