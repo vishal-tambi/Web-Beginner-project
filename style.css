@@ -1,8 +1,7 @@
 * {
     margin: 0px;
     font-family: Arial;
-    border: border-box; /*ye tab uyse karte hai jab hae apne content k margin k hi ander border dena hai uaally ager ye us najhi karte hai toh vo boirder bhar jakar larta hia or size bad jate hai*/
-}
+    border: border-box; }
 
 .navbar {
     height: 60px;
@@ -10,13 +9,11 @@
     color: white;
     display: flex;
     align-items: center;
-    /* border-radius: 10px; */
     justify-content: space-evenly;
 }
 .navlogo{
     height: 60px;
     width: 100px;
-    /* border: #0f1111 solid 2px; */
 }
 .border{
     border: 2px solid transparent;
@@ -27,7 +24,7 @@
 }
 
 .logo {
-    background-image: url("Images/logo.png");
+    background-image: url("logo.png");
     background-size: cover;
     background-image: cover;
     height: 60px;
@@ -54,13 +51,10 @@
 
 .nav-search{
     display: flex;
-    /* padding-left: 0px; */
     width: 620px;
     height: 40px;
     border-radius: 0px;
-    /* background-color: pink; */
     margin: 4px;
-
 }
 
 .nav-search:hover{
@@ -79,15 +73,11 @@
 .search-select{
     border-radius:0px;
     background-color: rgb(100, 93, 84);
-    /* padding: 10px; */
-}
+   }
 .search-icon{
     width: 40px;
-    /* height: 45px; */
     display: flex;
-    /* horrizontally center mein lane k liye */
     justify-content: center;
-    /* vertically center mein lane k liye */
     align-items: center;   
     font-size: 1.5rem;
     background-color: rgba(100,93,84);
@@ -126,7 +116,6 @@
 .panel-ops p {
     display: inline;
     margin-left: 15px
-    /* justify-content: center; */
 }
 
 .panel-ops{
@@ -136,7 +125,7 @@
 
 /* now i am going to make hero section */
 .hero-section{
-    background-image: url("Images/v.jpg");
+    background-image: url("v.jpg");
     height: 500px;
     background-size: cover;   
 }
@@ -150,11 +139,10 @@
     height: 40px;
     width: 80%;
     margin-left: 10%;
-    /* margin-top: 250px; */
 }
 .hero-message a{
     font: 0.5rem;
-    /* color: red; */
+    
 }
 
 .shop-section{
@@ -167,7 +155,6 @@
 .box{
     justify-content: space-evenly;
     height: 400px;
-    /* border: 2px solid black; */
     margin-top: 20px;
     width: 23%;
     margin-bottom: 20px;
@@ -188,7 +175,7 @@
 }
 
 .hero1-section{
-    background-image: url("Images/vl.jpg");
+    background-image: url("vl.jpg");
     height: 500px;
     background-size: cover;   
 }
@@ -243,6 +230,21 @@ footer {
     text-decoration: underline;
 }
 
+/* Common styles for all devices */
+* {
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 /*now i am Adding media queries for responsiveness */
 @media only screen and (max-width: 768px) {
@@ -304,3 +306,5 @@ footer {
         width: 100%; 
     }
 }
+
+
